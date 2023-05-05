@@ -1,8 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/fastfood.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg2 from "../assets/img/grille.png";
+import projImg3 from "../assets/img/organic.png";
+import projImg4 from "../assets/img/marketing.png";
+import projImg5 from "../assets/img/toure.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -20,28 +23,28 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg2,
-      link:"https://www.google.com/"
+      link:"https://mikiyas-fiseha.github.io/RestaurantWebsite/"
 
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
-      link:"https://www.google.com/"
+      link:"https://mikiyas-fiseha.github.io/groceriesStore/"
 
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
-      link:"https://www.google.com/"
+      imgUrl: projImg4,
+      link:"https://mikiyas-fiseha.github.io/DigitalAgency/"
 
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
-      link:"https://www.google.com/"
+      imgUrl: projImg5,
+      link:"https://mikiyas-fiseha.github.io/TravelAgency/"
 
     },
     {
