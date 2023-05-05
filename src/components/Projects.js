@@ -5,6 +5,12 @@ import projImg2 from "../assets/img/grille.png";
 import projImg3 from "../assets/img/organic.png";
 import projImg4 from "../assets/img/marketing.png";
 import projImg5 from "../assets/img/toure.png";
+import projImg6 from "../assets/img/gym7.png";
+import projImg7 from "../assets/img/exp7.png";
+import projImg8 from "../assets/img/coctail.png";
+
+
+
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -56,6 +62,31 @@ export const Projects = () => {
     },
   ];
 
+
+  const projects2 = [
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg6,
+      link:"https://candid-cobbler-73217f.netlify.app/"
+
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg7,
+      link:"https://candid-cobbler-73217f.netlify.app/"
+
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg8,
+      link:"https://magical-tanuki-518548.netlify.app/"
+
+    },
+  ];
+
   return (
     <section className="project" id="projects">
       <Container>
@@ -97,7 +128,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                     <Row>
                         {
-                          projects.map((project, index) => {
+                          projects2.map((project, index) => {
                             return (
                               
                               <ProjectCard
