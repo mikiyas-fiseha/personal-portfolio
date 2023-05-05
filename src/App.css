@@ -616,3 +616,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+/* to haide the subscribe to news letter */
+@media (max-width: 767px) {
+  /* Hide newsletter-bx div on mobile devices */
+  .newsletter-bx {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Hide newsletter-bx div on tablet devices */
+  .newsletter-bx {
+    display: none;
+  }
+}
