@@ -14,7 +14,7 @@ import mongoicon from '../assets/img/mongodb.svg'
 import sqlicon from '../assets/img/mysql.svg'
 import wordicon from '../assets/img/wordpress.png'
 import giticon from '../assets/img/git.png'
-
+import nodeicon from '../assets/img/node-js.png'
 
 
 
@@ -63,9 +63,14 @@ export const Skills = () => {
                                 <img src={jsicon} alt="Image" />
                                 <h5>Javascript</h5>
                             </div>
+                           
                             <div className="item">
                                 <img src={reacticon} alt="Image" />
                                 <h5>React</h5>
+                            </div>
+                            <div className="item">
+                                <img src={nodeicon} alt="Image" />
+                                <h5>Javascript</h5>
                             </div>
                             <div className="item">
                                 <img src={mongoicon} alt="Image" />
