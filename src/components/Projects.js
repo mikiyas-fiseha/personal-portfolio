@@ -8,6 +8,8 @@ import projImg5 from "../assets/img/toure.png";
 import projImg6 from "../assets/img/gym7.png";
 import projImg7 from "../assets/img/exp7.png";
 import projImg8 from "../assets/img/coctail.png";
+import word11 from "../assets/img/word11.png";
+import word2 from "../assets/img/word2.png";
 
 
 
@@ -20,21 +22,21 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "QuickBite Delights",
+      description: "Bite into Flavors",
       imgUrl: projImg1,
       link:"https://mikiyas-fiseha.github.io/Fast_Food_Website/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "GRILLI",
+      description: "Where Flavor Blooms",
       imgUrl: projImg2,
       link:"https://mikiyas-fiseha.github.io/RestaurantWebsite/"
 
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Organic",
+      description: "Organic Goodness Online",
       imgUrl: projImg3,
       link:"https://mikiyas-fiseha.github.io/groceriesStore/"
 
@@ -47,8 +49,8 @@ export const Projects = () => {
 
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "TOURLY",
+      description: "Discover the World",
       imgUrl: projImg5,
       link:"https://mikiyas-fiseha.github.io/TravelAgency/"
 
@@ -87,6 +89,29 @@ export const Projects = () => {
     },
   ];
 
+  const projects3 = [
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: word11,
+      link:"https://www.helenchic.com"
+
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: word2,
+      link:"http://tesfabroker.com"
+
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg8,
+      link:"https://magical-tanuki-518548.netlify.app/"
+
+    },
+  ];
   return (
     <section className="project" id="projects">
       <Container>
@@ -143,7 +168,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="third">
                     <Row>
                         {
-                          projects.map((project, index) => {
+                          projects3.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}

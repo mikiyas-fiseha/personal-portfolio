@@ -70,7 +70,7 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={nodeicon} alt="Image" />
-                                <h5>Javascript</h5>
+                                <h5>Node</h5>
                             </div>
                             <div className="item">
                                 <img src={mongoicon} alt="Image" />
