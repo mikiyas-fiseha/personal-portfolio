@@ -10,10 +10,6 @@ import projImg7 from "../assets/img/exp7.png";
 import projImg8 from "../assets/img/coctail.png";
 import word11 from "../assets/img/word11.png";
 import word2 from "../assets/img/word2.png";
-
-
-
-
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
