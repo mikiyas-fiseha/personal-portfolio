@@ -12,6 +12,9 @@ import jsicon from '../assets/img/js.png'
 import reacticon from '../assets/img/structure.png'
 import mongoicon from '../assets/img/mongodb.svg'
 import sqlicon from '../assets/img/mysql.svg'
+
+import docker from '../assets/img/docker.svg'
+
 import wordicon from '../assets/img/wordpress.png'
 import giticon from '../assets/img/git.png'
 import nodeicon from '../assets/img/node-js.png'
@@ -83,6 +86,12 @@ export const Skills = () => {
                                 <img src={giticon} alt="Image" />
                                 <h5>GIT</h5>
                             </div>
+
+                            <div className="item">
+                                <img src={docker} alt="Image" />
+                                <h5>Docker</h5>
+                            </div>
+
                         </Carousel>
                     </div>
                 </div>

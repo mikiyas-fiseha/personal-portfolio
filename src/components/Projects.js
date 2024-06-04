@@ -8,6 +8,8 @@ import projImg5 from "../assets/img/toure.png";
 import projImg6 from "../assets/img/gym7.png";
 import projImg7 from "../assets/img/exp7.png";
 import projImg8 from "../assets/img/coctail.png";
+import projImg9 from "../assets/img/ahadu.png";
+
 import word11 from "../assets/img/word11.png";
 import word2 from "../assets/img/word2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -51,13 +53,7 @@ export const Projects = () => {
       link:"https://mikiyas-fiseha.github.io/TravelAgency/"
 
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-      link:"https://www.google.com/"
-
-    },
+    
   ];
 
 
@@ -65,8 +61,8 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg6,
-      link:"https://candid-cobbler-73217f.netlify.app/"
+      imgUrl: projImg9,
+      link:"https://ahadupharma.netlify.app"
 
     },
     {
@@ -100,20 +96,7 @@ export const Projects = () => {
       link:"https://www.helenchic.com"
 
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: word2,
-      link:"http://tesfabroker.com"
-
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg8,
-      link:"https://magical-tanuki-518548.netlify.app/"
-
-    },
+    
   ];
   return (
     <section className="project" id="projects">
