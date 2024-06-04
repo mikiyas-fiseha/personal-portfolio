@@ -72,8 +72,15 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg7,
+      imgUrl: projImg6,
       link:"https://candid-cobbler-73217f.netlify.app/"
+
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg7,
+      link:"https://deft-melba-ee17fc.netlify.app/"
 
     },
     {
